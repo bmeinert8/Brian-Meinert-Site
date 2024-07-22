@@ -94,7 +94,10 @@ nav, .nav-links{
 }
 
 .menu-links a:hover{
-    color: #535353;
+    color: #6c6b6b;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    text-decoration-color: #6c6b6b;
 }
 
 .menu-links li {
