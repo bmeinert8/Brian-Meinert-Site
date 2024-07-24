@@ -316,3 +316,55 @@ section{
  .text_container h3{
     margin-bottom: 2rem;
  }
+
+ /*Projects Section*/
+
+ #projects{
+    position: relative;
+    margin-top: 5rem;
+ }
+
+ .project_containers, .project_detail_container{
+    display: flex;
+    gap: 5rem;;
+ }
+
+ .details_container{
+    padding: 1.3rem;
+    flex: 1;
+    border:#252525 0.1rem solid;
+    border-radius: 2rem;
+    text-align: center;
+ }
+
+.project-icon{
+        height: 250px;
+        width: 250px;
+        border-radius: 50px;
+        margin-bottom: 2rem;
+        padding: 50px
+}
+
+.project_details_container{
+    display: flex;
+    gap: 2rem;
+    margin: 7rem auto;
+}
+
+.projects_type{
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.project_links:hover{
+    color: #6c6b6b;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #6c6b6b;
+
+}
+
+.alt_arrow{
+    left:0;
+    margin-left: 3rem;
+}
