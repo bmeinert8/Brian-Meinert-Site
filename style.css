@@ -7,7 +7,7 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
-    background-color: #fdf5e7;
+    background-color: #f8f7f7;
 }
 
 html{
@@ -76,7 +76,7 @@ nav, .nav-links{
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: transparent;
+    background-color: #fdf5e7;
     width:fit-content;
     max-height: 0;
     overflow: hidden;
@@ -139,7 +139,7 @@ nav, .nav-links{
 section{
     padding-top: 5vh;
     height: 95vh;
-    margin:0 10rem;
+    
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -154,7 +154,12 @@ section{
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 65vh;
+    height: 90vh;
+    background-image: url(./assets/bg-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: none;
 }
 
 .pic-container{
@@ -167,7 +172,8 @@ section{
 .profile-picture{
     display: flex;
     justify-content: center;
-    margin-top: 7rem;
+    margin-top: 15rem;
+    margin-left: 10rem;
     height: 500px;
     width: 500px;
     border-radius: 50%;
@@ -176,6 +182,7 @@ section{
 .section_text{
     align-self: center;
     text-align: center;
+    margin-right: 5rem;
 
 }
 
@@ -183,23 +190,35 @@ section{
     font-weight: 700;
 }
 
+
+
 .section_text_p1{
     text-align: center;
     font-size: 2rem;
-    color: #656565;
+}
+
+.hero_p1{
+    color: #bfbfbf;
 }
 
 .section_text_p2{
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #656565;
+}
+
+.hero_p2{
+    color: #c5c5c5;
 }
 
 .title{
     font-size: 3.5rem;
     text-align: center;
 
+}
+
+.hero_h1{
+    color: #fff;    
 }
 
 #social-container{
@@ -214,6 +233,7 @@ section{
 .icon{
     height: 2.7rem;
     cursor: pointer;
+    border-radius: 4px;
 
 }
 
@@ -223,6 +243,10 @@ section{
 
 .icon:active{
     transform: scale(1.1)
+}
+
+.gh {
+    height: 48px
 }
 
 /*Button Styles*/
@@ -239,7 +263,7 @@ section{
 }
 
 .btn:hover{
-    background-color: #252525;
+    background-color: #737171;
     color: #fdf5e7;
     box-shadow: #252525 0 0 0.5rem;
 
@@ -248,3 +272,47 @@ section{
 .btn:active{
     background-color: #434343;
 }
+
+/*About Section*/
+
+#about{
+    position: relative;
+    margin-top: 5rem;;
+}
+.section_container{
+    display: flex;
+    gap: 3rem;
+}
+
+.section_pic_container{
+    height: 400px;
+    width: 400px;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+.about-img{
+    height:500px;
+    border-radius: 50px;
+    
+}
+ .arrow{
+    position: absolute;
+    top: 75%;
+    right: 0;
+    margin-right: 3rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+    height: 70px;
+ }
+ .text_container{
+    margin-top: 5rem;
+    gap: 5rem;
+    font-size: 1.3rem;
+    margin-right: 8rem;
+ }
+
+ .text_container h3{
+    margin-bottom: 2rem;
+ }
