@@ -226,6 +226,18 @@ section{
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+
+#skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skill-icon{
+    height: 50px;
 }
 
 /*Icon Styles*/
@@ -247,6 +259,30 @@ section{
 
 .gh {
     height: 48px
+}
+
+.js{
+    height: 48px;
+    margin-left: 10px;
+
+}
+
+.ps{
+    margin-left: 15px;;
+}
+
+.ts{
+    height: px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.vu{
+    height: px;
+}
+
+.bs{
+    margin-left: 10px;
 }
 
 /*Button Styles*/
@@ -367,4 +403,36 @@ section{
 .alt_arrow{
     left:0;
     margin-left: 3rem;
+}
+
+/*Contact Section*/
+
+#certifications{
+    position: relative;
+    margin-top: 3rem;
+}
+
+.certifications_container{
+    display: flex;
+    gap: 5rem;
+    border-radius: 2rem;
+    border: #252525 0.1rem solid;
+    text-align: center;
+    padding: 3rem;
+    margin: 10rem auto;
+}
+
+.badge{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 1rem;
+}
+
+.cert{
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+h4{
+    margin-bottom: 0.5rem;
 }
