@@ -476,3 +476,14 @@ h4{
 .contact_info a{
     font-size: 20px;
 }
+
+/*Footer*/
+
+footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+}
