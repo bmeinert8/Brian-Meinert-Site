@@ -400,6 +400,11 @@ section{
 
 }
 
+.ability{
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
 .alt_arrow{
     left:0;
     margin-left: 3rem;
@@ -435,4 +440,39 @@ section{
 
 h4{
     margin-bottom: 0.5rem;
+}
+
+/*Contact Section*/
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact_info_container{
+    display: flex;
+    justify-content: center;
+    background-color: #cacaca;
+    height: 10rem;
+    width: 50rem;
+    margin: 10rem auto;
+    border-radius: 2rem;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-icon{
+    cursor: default;
+}
+
+.contact_info a{
+    font-size: 20px;
 }
