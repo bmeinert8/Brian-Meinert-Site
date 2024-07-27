@@ -18,29 +18,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brian J Meinert</title>
-    <link rel="stylesheet" href="style.css">
+    <link id="style-light" rel="stylesheet" href="style.css">
+    <link id="style-dark" disabled rel="stylesheet" href="style-dark.css">
     <link rel="stylesheet" href="media-queries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="theme.js" defer></script>
 </head>
 <body>    
     <nav id="desktop-nav">
         <div class="logo">
-            <h1>Brian J Meinert</h1>
+            <h1 class="dark-text">Brian J Meinert</h1>
+        </div>
+        <div class="contrast">
+            <a href="#" onclick="theme_toggle(); return false;">&#127763;</a>
         </div>
         <div>
             <ul class="nav-links">
-                <li><a class="desktop" href="#about">About Me</a></li>
-                <li><a class="desktop" href="#projects">Projects</a></li>
-                <li><a class="desktop" href="#certifications">Certifications</a></li>
-                <li><a class="desktop" href="#contact">Contact Me</a></li>
+                <li><a class="desktop dark-text" href="#about">About Me</a></li>
+                <li><a class="desktop dark-text" href="#projects">Projects</a></li>
+                <li><a class="desktop dark-text" href="#certifications">Certifications</a></li>
+                <li><a class="desktop dark-text" href="#contact">Contact Me</a></li>
             </ul>
         </div>
     </nav>
     <nav id="mobile-nav">
         <div class="logo">
-            <h1>Brian J Meinert</h1>
+            <h1 class="dark-text">Brian J Meinert</h1>
+        </div>
+        <div class="contrast">
+            <a href="#" onclick="theme_toggle(); return false;">&#127763;</a>
         </div>
         <div class="hamburger-nav">
             <div class="hamburger-icon" onclick="toggleMenu()">
@@ -49,10 +57,10 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+                <li><a class="dark-text" href="#about" onclick="toggleMenu()">About Me</a></li>
+                <li><a class="dark-text" href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a class="dark-text" href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+                <li><a class="dark-text" href="#contact" onclick="toggleMenu()">Contact Me</a></li>
             </div>
         </div>
     </nav>
@@ -76,30 +84,31 @@
                 <img class="skill-icon" src="./assets/html-icon.png" alt="html icon">
                 <img class="skill-icon" src="./assets/CSS-Logo.png" alt="css icon">
                 <img class="skill-icon js" src="./assets/js-icon.png" alt="javascript icon">
-                <img class="skill-icon js bs" src="./assets/bootstrap-4-logo.png" alt="javascript icon">
-                <img class="skill-icon ts" src="./assets/typescript.png" alt="javascript icon">
-                <img class="skill-icon vu" src="./assets/Vue_js_logo.png" alt="javascript icon">
-                <img class="skill-icon" src="./assets/react.png" alt="javascript icon">
-                <img class="skill-icon" src="./assets/azure.jpg" alt="javascript icon">
-                <img class="skill-icon ps" src="./assets/powershell.png" alt="javascript icon">
+                <img class="skill-icon js bs" src="./assets/bootstrap-4-logo.png" alt="bootstrap icon">
+                <img class="skill-icon ts" src="./assets/typescript.png" alt="typescript icon">
+                <img class="skill-icon vu" src="./assets/Vue_js_logo.png" alt="vue icon">
+                <img class="skill-icon" src="./assets/react.png" alt="react icon">
+                <img class="skill-icon" src="./assets/bicep_logo.png" alt="bicep icon">
+                <img class="skill-icon" src="./assets/azure.jpg" alt="azure icon">
+                <img class="skill-icon ps" src="./assets/powershell.png" alt="powershell icon">
                 
             </div>
         </div>
     </section>
     <section id="about">
-        <p class="section_text_p1">Learn More</p>
-        <h1 class="title">About Me</h1>
+        <p class="section_text_p1 dark-text">Learn More</p>
+        <h1 class="title dark-text">About Me</h1>
         <div class="section_container">
             <div class="section_pic_container">
                 <img  src="assets/IMG_1490 1.jpg" alt="photo of brian" class="about-img">
             </div>
             <div class="about_details_container">
                 <div class="text_container">
-                    <h3>Who is Brian</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsum velit repellendus itaque ex illum quae deserunt eius! A facere, quaerat tempore animi hic cupiditate recusandae alias harum quod necessitatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis dolores, voluptatum, nostrum eaque nemo minus quo rerum aspernatur vero, quos quia incidunt quibusdam officia odit error suscipit quas beatae! Unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero natus iure autem reiciendis est adipisci quo. Dolor tempore ullam iusto accusamus laudantium, error illum natus, repellendus iste amet similique. Quaerat.</p>
+                    <h3 class="dark-text">Who is Brian</h3>
+                    <p class="dark-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsum velit repellendus itaque ex illum quae deserunt eius! A facere, quaerat tempore animi hic cupiditate recusandae alias harum quod necessitatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis dolores, voluptatum, nostrum eaque nemo minus quo rerum aspernatur vero, quos quia incidunt quibusdam officia odit error suscipit quas beatae! Unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero natus iure autem reiciendis est adipisci quo. Dolor tempore ullam iusto accusamus laudantium, error illum natus, repellendus iste amet similique. Quaerat.</p>
 
-                    <h3 class="ability">What I Can Do For You</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique fugiat, ratione commodi tempore labore reiciendis at aut atque libero et? Nulla non voluptatem consequuntur, magnam harum obcaecati quis iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, odit quisquam deleniti, ipsam unde, magni dolores laudantium iste obcaecati rerum ab aliquam velit fuga illo pariatur sit! Quae, iusto quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquid necessitatibus quidem atque incidunt rem magnam, hic, ipsa, aperiam ipsam modi beatae reprehenderit magni illum consequuntur labore ex corrupti? Impedit?
+                    <h3 class="ability dark-text">What I Can Do For You</h3>
+                    <p class="dark-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique fugiat, ratione commodi tempore labore reiciendis at aut atque libero et? Nulla non voluptatem consequuntur, magnam harum obcaecati quis iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, odit quisquam deleniti, ipsam unde, magni dolores laudantium iste obcaecati rerum ab aliquam velit fuga illo pariatur sit! Quae, iusto quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquid necessitatibus quidem atque incidunt rem magnam, hic, ipsa, aperiam ipsam modi beatae reprehenderit magni illum consequuntur labore ex corrupti? Impedit?
                     </p>
                 </div>
             </div>    
@@ -107,8 +116,8 @@
         <a href="#projects"><img src="./assets/arrow.png" alt="down arrow" class="icon arrow"></a>
     </section>
     <section id="projects">
-        <p class="section_text_p1">View</p>
-        <h1 class="title">My Projects</h1>
+        <p class="section_text_p1 dark-text">View</p>
+        <h1 class="title dark-text">My Projects</h1>
         <div class="section_container">
             <div class="project_details_container">
                 <div class="project_containers">
@@ -125,8 +134,8 @@
         <a href="#certifications"><img src="./assets/arrow.png" alt="down arrow" class="icon arrow alt_arrow"></a>
     </section>
     <section id="certifications">
-        <p class="section_text_p1">Check out</p>
-        <h1 class="title">My Certifications</h1>
+        <p class="section_text_p1 dark-text">Check out</p>
+        <h1 class="title dark-text">My Certifications</h1>
         <div class="section_container">
             <div class="certifications_container">
                 <div class="cert_info_container">
@@ -157,7 +166,7 @@
         <a href="#contact"><img src="./assets/arrow.png" alt="down arrow" class="icon arrow"></a>
     </section>
     <section id="contact">
-        <h1 class="title">Contact Me</h1>
+        <h1 class="title dark-text">Contact Me</h1>
         <div class="contact_info_container">
             <div class="contact_info">
                 <img src="./assets/mail.png" alt="email icon" class="icon contact-icon">
@@ -173,14 +182,14 @@
         <nav>
             <div>
                 <ul class="nav-links">
-                    <li><a class="desktop" href="#about">About Me</a></li>
-                    <li><a class="desktop" href="#projects">Projects</a></li>
-                    <li><a class="desktop" href="#certifications">Certifications</a></li>
-                    <li><a class="desktop" href="#contact">Contact Me</a></li>
+                    <li><a class="desktop dark-text" href="#about">About Me</a></li>
+                    <li><a class="desktop dark-text" href="#projects">Projects</a></li>
+                    <li><a class="desktop dark-text" href="#certifications">Certifications</a></li>
+                    <li><a class="desktop dark-text" href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2024 BJM Design Solutions.  All Rights Reserved.</p>
+        <p class="dark-text">Copyright &#169; 2024 BJM Design Solutions.  All Rights Reserved.</p>
     </footer>
     <script src="main.js"></script>
 </body>
