@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Meinert's Cloud Projects</title>
+    <link id="style-light" rel="stylesheet" href="style.css">
+    <link id="style-dark" disabled rel="stylesheet" href="style-dark.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="theme.js" defer></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <h1 class="dark-text">Brian J Meinert</h1>
+        </div>
+        <div class="contrast">
+            <a href="#" onclick="theme_toggle(); return false;">&#127763;</a>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a class="desktop dark-text" href="index.html">Home</a></li>
+                <li><a class="desktop dark-text" href="dev.html">Dev Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">
+            <h1 class="dark-text">Brian J Meinert</h1>
+        </div>
+        <div class="contrast">
+            <a href="#" onclick="theme_toggle(); return false;">&#127763;</a>
+        </div>
+        <div class="hamburger-nav">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a class="dark-text" href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a class="dark-text" href="dev.html" onclick="toggleMenu()">Dev Projects</a></li>
+            </div>
+        </div>
+    </nav>
+    <div class="section_container">
+        <div class="section_pic_container">
+            <img  src="assets/IMG_1490 1.jpg" alt="photo of brian" class="about-img">
+        </div>
+        <div class="about_details_container">
+            <div class="text_container">
+                <h3 class="dark-text">Who is Brian</h3>
+                <p class="dark-text project_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsum velit repellendus itaque ex illum quae deserunt eius! A facere, quaerat tempore animi hic cupiditate recusandae alias harum quod necessitatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis dolores, voluptatum, nostrum eaque nemo minus quo rerum aspernatur vero, quos quia incidunt quibusdam officia odit error suscipit quas beatae! Unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero natus iure autem reiciendis est adipisci quo. Dolor tempore ullam iusto accusamus laudantium, error illum natus, repellendus iste amet similique. Quaerat.</p>
+            </div>
+            <div id="social-container">
+                <img src="./assets/gh.png" alt="github page" class="icon gh" onclick="location.href='https://www.github.com/bmeinert8'">
+                <img src="./assets/dev-to.png" alt="linkedin page" class="icon" onclick="location.href='https://www.linkedin.com/in/brian-meinert-b81738256/'">
+            </div>
+        </div>    
+        <div class="section_pic_container">
+            <img  src="assets/IMG_1490 1.jpg" alt="photo of brian" class="about-img">
+        </div>
+        <div class="about_details_container">
+            <div class="text_container">
+                <h3 class="dark-text">Who is Brian</h3>
+                <p class="dark-text project_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsum velit repellendus itaque ex illum quae deserunt eius! A facere, quaerat tempore animi hic cupiditate recusandae alias harum quod necessitatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis dolores, voluptatum, nostrum eaque nemo minus quo rerum aspernatur vero, quos quia incidunt quibusdam officia odit error suscipit quas beatae! Unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero natus iure autem reiciendis est adipisci quo. Dolor tempore ullam iusto accusamus laudantium, error illum natus, repellendus iste amet similique. Quaerat.</p>
+            </div>
+            <div id="social-container">
+                <img src="./assets/gh.png" alt="github page" class="icon gh" onclick="location.href='https://www.github.com/bmeinert8'">
+                <img src="./assets/dev-to.png" alt="linkedin page" class="icon" onclick="location.href='https://www.linkedin.com/in/brian-meinert-b81738256/'">
+            </div>
+        </div>    
+    </div>
+    <div class="section_container_2">
+        <div class="section_pic_container">
+            <img  src="assets/IMG_1490 1.jpg" alt="photo of brian" class="about-img">
+        </div>
+        <div class="about_details_container">
+            <div class="text_container">
+                <h3 class="dark-text">Who is Brian</h3>
+                <p class="dark-text project_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsum velit repellendus itaque ex illum quae deserunt eius! A facere, quaerat tempore animi hic cupiditate recusandae alias harum quod necessitatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis dolores, voluptatum, nostrum eaque nemo minus quo rerum aspernatur vero, quos quia incidunt quibusdam officia odit error suscipit quas beatae! Unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero natus iure autem reiciendis est adipisci quo. Dolor tempore ullam iusto accusamus laudantium, error illum natus, repellendus iste amet similique. Quaerat.</p>
+            </div>
+            <div id="social-container">
+                <img src="./assets/gh.png" alt="github page" class="icon gh" onclick="location.href='https://www.github.com/bmeinert8'">
+                <img src="./assets/dev-to.png" alt="linkedin page" class="icon" onclick="location.href='https://www.linkedin.com/in/brian-meinert-b81738256/'">
+            </div>
+        </div>    
+        <div class="section_pic_container">
+            <img  src="assets/IMG_1490 1.jpg" alt="photo of brian" class="about-img">
+        </div>
+        <div class="about_details_container">
+            <div class="text_container">
+                <h3 class="dark-text">Who is Brian</h3>
+                <p class="dark-text project_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsum velit repellendus itaque ex illum quae deserunt eius! A facere, quaerat tempore animi hic cupiditate recusandae alias harum quod necessitatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis dolores, voluptatum, nostrum eaque nemo minus quo rerum aspernatur vero, quos quia incidunt quibusdam officia odit error suscipit quas beatae! Unde? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero natus iure autem reiciendis est adipisci quo. Dolor tempore ullam iusto accusamus laudantium, error illum natus, repellendus iste amet similique. Quaerat.</p>
+            </div>
+            <div id="social-container">
+                <img src="./assets/gh.png" alt="github page" class="icon gh" onclick="location.href='https://www.github.com/bmeinert8'">
+                <img src="./assets/dev-to.png" alt="linkedin page" class="icon" onclick="location.href='https://www.linkedin.com/in/brian-meinert-b81738256/'">
+            </div>
+        </div>    
+    </div>
+    <footer class="project_footer">
+        <nav>
+            <div>
+                <ul class="nav-links">
+                    <li><a class="desktop dark-text" href="index.html">Home</a></li>
+                    <li><a class="desktop dark-text" href="cloud.html">Cloud Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="dark-text">Copyright &#169; 2024 BJM Design Solutions.  All Rights Reserved.</p>
+    </footer>
+    <script src="main.js"></script> 
+</body>
+</html>
