@@ -288,6 +288,10 @@ section{
     margin-left: 10px;
 }
 
+.bicep{
+    margin-right: 10px;
+}
+
 /*Button Styles*/
 
 .btn{
@@ -489,4 +493,19 @@ footer{
 
 footer p{
     text-align: center;
+}
+
+/*Dev Projects*/
+.section_container_2{
+    display: flex;
+    gap: 3rem;
+    margin-top: 10rem;
+}
+
+.project_footer{
+    margin-top: 15rem;
+}
+
+.project_text{
+    margin-bottom: 3rem;
 }

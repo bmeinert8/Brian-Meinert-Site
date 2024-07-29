@@ -288,6 +288,10 @@ section{
     margin-left: 10px;
 }
 
+.bicep{
+    margin-right: 10px;
+}
+
 /*Button Styles*/
 
 .btn{
@@ -496,4 +500,19 @@ footer p{
 /*Dark Mode*/
 .dark-text{
     color: #fff;
+}
+
+/*Dev Projects*/
+.section_container_2{
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.project_footer{
+    margin-top: 5rem;
+}
+
+.project_text{
+    margin-bottom: 3rem;
 }
